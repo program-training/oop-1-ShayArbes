@@ -97,6 +97,7 @@
 //     scale(num:number){
 //       this.height = this.height*num;
 //       this.width= this.width * num;
+//       return this;
 //     }
 //     static Merger(r1:Rectangle,r2:Rectangle):Rectangle{
 //       return new Rectangle(r1.height+r2.height,r1.width+r2.width);
